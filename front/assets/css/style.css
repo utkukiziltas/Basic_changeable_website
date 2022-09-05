@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+	--main: #1a6201;
+	--main2: #c4e5b9;
+	--maingradient: linear-gradient(to right, var(--main), var(--main2));
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select, textarea, button,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+h1, h2, h3, h4, h5, h6, p{
+	color: var(--main);
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration: none;
+}
+img {
+	border: 0;
+}
+:focus {
+	outline: 0;
+}
+.clear {
+	clear: both;
+}
+
+.me-3 {
+	margin-left: 50px;
+}
+.me-3 p{
+	font-weight: 700;
+}
+.bottom-menu .nav-link{
+	border-bottom: 2px solid #e1e7ec;
+}
+
+.header-img{
+	max-width: 100%;
+	height: auto;
+
+}
+
+.product-title h1{
+	color: black;
+	font-weight: 600;
+}
+.product-title span{
+	color: #14d9ad;
+	font-weight: 600;
+	font-size: 40px;
+}
+.product-buy {
+	padding-top: 10px;
+}
+.detay-des{
+	padding-left: 0;
+	padding-top: 5px;
+}
+.product-aciklama p{
+	margin-top: 15px;
+	font-family: cursive;
+	font-weight: 600;
+	font-size: 17px;
+}
+
+
+button.btn.btn-al {
+	background-color: #14d9ad;
+	color: white;
+	width: 200px;
+	height: 50px;
+	margin-left: 30px;
+	border: 1px solid #14d9ad;
+}
+button.btn.btn-ekle {
+	color: black;
+	width: 200px;
+	height: 50px;
+	margin-left: 30px;
+	border: 1px solid #14d9ad;
+}
+
+li.nav-item.sosyal {
+	margin-top: 30px;
+	margin-left: 40px;
+}
+a.nav-sosyal {
+	display: inline;
+	margin-left: 10px;
+}
+
+img.logo {
+	height: 36px;
+}
+.main-color{
+	color: var(--main);
+}
+.bg-main{
+	background-color: var(--main);
+}
+
+.main2-color{
+	color: var(--main2);
+}
+.bg-main2{
+	background-color: var(--main2);
+}
+
+.flex{
+	display: flex;
+}
+.dropdown.user {
+	margin-left: 20px;
+	padding: 10px;
+	border-radius: 8px;
+}
+.social-buttons a.btn.btn-outline-light {
+	border: none;
+}
+
+.social-buttons a.btn.btn-outline-light:hover {
+	color: var(--main2);
+}
+
+
+/*----index products col----*/
+
+.product-col .col-body {
+	padding: 10px 20px 20px 20px;
+}
+.product-col .col-body .col-title,.product-col .col-body .col-price{
+	margin-top: 5px;
+}
+.product-col .col-body .col-title a{
+	font-size: 15px;
+	color: #576971;
+}
+.product-col:hover{
+	transition: 0.3s;
+	scale: 104%;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+/*----index products col end----*/
+
+/*scroll bar*/
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--main);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: var(--main2);
+}
+
+
+
+/*---register - login---*/
+
+  .gradient-custom-3 {
+  /* fallback for old browsers */
+  background: #84fab0;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	  background: var(--maingradient);
+}
+.gradient-custom-4 {
+  /* fallback for old browsers */
+  background: #84fab0;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: var(--maingradient);
+}
+.register-btn:hover{
+box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+/*---register - login end---*/
+
+
+/*--Categories---*/
+
+.categories{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+}
+.category-item{
+	font-size: 20px;
+	display: inline-block;
+	letter-spacing: -0.22px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	color: var(--main);
+	text-transform: capitalize;
+}
+
+.category-item:hover{
+	cursor: pointer;
+	background-color: var(--maingradient);
+	color: var(--main2);
+}
+
+
+/*Settings Bar*/
+.settings-bar{
+	width: 200px;
+	padding: 10px;
+	background-color: #d7d5d5;
+	position: fixed;
+	right: 0;
+	top: 136px;
+	z-index: 999;
+}
+.label-file{
+	color: var(--main);
+	background-color: var(--main2);
+	padding: 10px;
+}
+
+.settings-bar .bar-item{
+margin-top: 10px;
+}
+
+/*Responsive*/
+
+@media only screen and (max-width: 600px) {
+	.settings-bar{
+		width: 150px;
+	}
+}
